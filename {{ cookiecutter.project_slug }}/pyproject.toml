@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "{{ cookiecutter.project_slug }}"
+version = "0.1.0"
+description = "{{ cookiecutter.project_name }}"
+authors = ["{{ cookiecutter.author }}"]
+license = "MIT"
+packages = [{include = "apis_ontology"}]
+
+
+[tool.poetry.dependencies]
+apis-core = { git = "https://github.com/acdh-oeaw/apis-core-rdf.git", branch = "main" }
+apis-acdhch-default-settings = { git = "https://github.com/acdh-oeaw/apis-acdhch-default-settings.git", tag = "v0.1.1" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
