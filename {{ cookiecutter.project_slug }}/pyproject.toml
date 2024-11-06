@@ -8,8 +8,8 @@ packages = [{include = "apis_ontology"}]
 
 
 [tool.poetry.dependencies]
-apis-core = { git = "https://github.com/acdh-oeaw/apis-core-rdf.git", branch = "main" }
-apis-acdhch-default-settings = { git = "https://github.com/acdh-oeaw/apis-acdhch-default-settings.git", tag = "v0.1.1" }
+apis-core-rdf = "0.29.0"
+apis-acdhch-default-settings = "1.5.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
