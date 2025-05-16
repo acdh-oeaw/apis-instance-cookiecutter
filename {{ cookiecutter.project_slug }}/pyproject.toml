@@ -9,7 +9,7 @@ requires-python = ">3.11"
 packages = [{include = "apis_ontology"}]
 dependencies = [
     "apis-core-rdf==0.46.1",
-    "apis-acdhch-default-settings==2.7.0",
+    "apis-acdhch-default-settings==2.8.0",
 ]
 
 [build-system]
